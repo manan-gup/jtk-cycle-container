@@ -7,7 +7,7 @@ A docker container to run the code from 'alanlhutchison/empirical-JTK_CYCLE-with
 Download and install Docker for Desktop from [here](https://www.docker.com/get-started/). After installation open Powershell or bash/zsh and run `docker version`. If you get a version number for client and server you are good to go.
 
 ### Step 2
-Run `docker run -it <put package here>` in Powershell/bash/zsh. This should start your container and present to you the bash commandline from within it. This container has the the code from the [alanlhutchison/empirical-JTK_CYCLE-with-asymmetry](https://github.com/alanlhutchison/empirical-JTK_CYCLE-with-asymmetry) repository copied at `/home/empirical-JTK_CYCLE-with-asymmetry` with the cython code already compiled.
+Run `docker run -it manan17/jtk-cycle-container:main` in Powershell/bash/zsh. This should start your container and present to you the bash commandline from within it. This container has the the code from the [alanlhutchison/empirical-JTK_CYCLE-with-asymmetry](https://github.com/alanlhutchison/empirical-JTK_CYCLE-with-asymmetry) repository copied at `/home/empirical-JTK_CYCLE-with-asymmetry` with the cython code already compiled.
 
 ### Step 3
 To test that the environment is setup correctly, run 
