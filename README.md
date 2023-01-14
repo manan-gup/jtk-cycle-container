@@ -17,3 +17,5 @@ in the directory the container starts in. Afterwards you should get 3 new files 
 ### Steps to delete docker containers and images
 Run `docker ps --all` to list the installed containers. Get the container name(s) and run `docker container rm <container-name>`. Then run `docker image prune -a` to delete the downloaded image(s).
 To uninstall docker use the suitable methods for your OS after using the above two commands.
+
+### Docker Image link: [manan17/jtk-cycle-container](https://hub.docker.com/r/manan17/jtk-cycle-container)
